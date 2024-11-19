@@ -42,7 +42,7 @@ include 'conexao.php';
             <?php
 
             // Consulta para obter os alunos
-            $sql = "SELECT ID, Nome, Genero, Ano FROM alunos";
+            $sql = "SELECT ID, Nome, Genero, Ano FROM filmes";
             $result = mysqli_query($conn, $sql);
             
             // Verificar se existem resultados

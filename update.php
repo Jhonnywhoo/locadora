@@ -6,7 +6,7 @@ $nome = $_POST["nome"];
 $genero = $_POST["genero"];
 $ano = $_POST["ano"];
 
-$sqlUpdate = "UPDATE alunos SET Nome = '$nome', genero = '$genero', ano = '$ano' WHERE  ID = $id ";
+$sqlUpdate = "UPDATE filmes SET Nome = '$nome', genero = '$genero', ano = '$ano' WHERE  ID = $id ";
 
 if(mysqli_query($conn,$sqlUpdate)){
     print_r("Dado Atualizado com sucesso!!");

@@ -1,0 +1,8 @@
+create database locadora;
+use locadora;
+
+CREATE TABLE filmes
+(id INT auto_increment PRIMARY KEY,
+nome varchar(30) NOT NULL,
+genero VARCHAR(20) NOT NULL,
+ano Int(4) not null);

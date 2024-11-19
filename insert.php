@@ -6,7 +6,7 @@ $nome = $_POST['nome'];
 $genero = $_POST['genero'];
 $ano = $_POST['ano'];
 
-$sql = "INSERT INTO alunos (Nome, Genero, Ano) VALUES ('$nome', '$genero','$ano')";
+$sql = "INSERT INTO filmes (Nome, Genero, Ano) VALUES ('$nome', '$genero','$ano')";
 
 //echo $sql;
 

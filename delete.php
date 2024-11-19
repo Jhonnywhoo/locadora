@@ -2,7 +2,7 @@
 include 'conexao.php';
 
 $id = $_GET['ID'];
-$sql = "DELETE FROM alunos WHERE ID = ".$id;
+$sql = "DELETE FROM filmes WHERE ID = ".$id;
 
 if (mysqli_query($conn, $sql)) {
     echo "Exclusão do registro realizada com sucesso!";

@@ -2,7 +2,7 @@
 include 'conexao.php';
 
 $id = $_GET['ID'];
-$querySelect = 'SELECT Nome,Genero,Ano from alunos where ID = '.$id;
+$querySelect = 'SELECT Nome,Genero,Ano from filmes where ID = '.$id;
 $result = mysqli_query($conn,$querySelect);
 $result = mysqli_fetch_assoc($result);
 
