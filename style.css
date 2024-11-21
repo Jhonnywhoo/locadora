@@ -45,7 +45,7 @@ nav {
     padding-bottom: 2px;
 }
 
-.login {
+.botao {
     padding: 10px;
     font-family: "Righteous", sans-serif;
     background-color: #b2b2b22e;
@@ -69,7 +69,7 @@ a:hover {
     color: #6e5fe2;
 }
 
-@media(min-width: 280px) and (max-width: 500px) {
+@media(max-width: 500px) {
     .imagens-site {
         border-radius: 20px;
         width: 90%;

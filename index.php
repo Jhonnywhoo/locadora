@@ -19,7 +19,7 @@ include 'conexao.php';
             <a href="#">Home</a>
             <a href="tabela.php">Filmes</a>
             <a href="#contato">Contato</a>
-            <a href="#"><Button class='login'>Log-in</Button></a>
+            <a href="#"><Button class='botao'>Log-in</Button></a>
         </nav>
     </header>
 
@@ -31,6 +31,7 @@ include 'conexao.php';
                     <h5>A melhor ferramenta</h5>
                     <p>para cadastrar os filmes da sua locadora!</p>
                     <p>Com nossa plataforma, é possível adicionar, editar e deletar os ítens do seu banco de dados com apenas um clique!</p>
+                    <a href="tabela.php"><button class="botao">Exibir tabela</button></a>
                 </div>
             </div>
         </section>
