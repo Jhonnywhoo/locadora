@@ -12,13 +12,14 @@ include 'conexao.php';
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8b0455432d.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <nav>
-            <a href="index.php">Home</a>
-            <a href="#filmes">Filmes</a>
-            <a href="#contato">Contato</a>
+            <a href="index.php"><i class="fa-solid fa-house"></i></a>
+            <a href="#"><i class="fa-solid fa-film"></i></a>
+            <a href="#contato"><i class="fa-solid fa-comment"></i></a>
             <a href="#"><Button class='login'>Log-in</Button></a>
         </nav>
     </header>
@@ -80,5 +81,6 @@ include 'conexao.php';
             </tbody>
         </table> 
     </div>
+    <script src="components/script.js"></script>
 </body>
 </html>

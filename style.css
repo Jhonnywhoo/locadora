@@ -8,15 +8,16 @@
     font-family: "Righteous", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
 body {
     font-family: "Righteous", sans-serif;
-    background: linear-gradient(rgba(28, 10, 41, 0.274), rgba(0, 0, 0, 0.9)), url(img/fundo.png);
+    background-color: #000000; 
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    transition: background-image 0.4s ease-in-out;
+    height: 100%;
     color: #fff;
 }
 
@@ -29,34 +30,47 @@ h2 {
 }
 
 header {
+    position: relative;
     text-align: center;
-    background-color: rgb(28, 10, 41);
-    color: rgb(255, 255, 255);
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
     padding: 14px 0px;
 }
 
 nav {
+    margin-top: 14px;
+    margin-bottom: 12px;
     margin-left: 12px;
     margin-right: 12px;
     text-align: center;
     font-size: 1rem;
-    word-spacing: 45px;
+    word-spacing: 55px;
     padding-bottom: 2px;
 }
 
-.botao {
-    padding: 10px;
+button {
+    padding: 12px;
     font-family: "Righteous", sans-serif;
-    background-color: #b2b2b22e;
+    background-color: #0000006a;
     color: white;
     border: none;
     border-radius: 20px;
     cursor: pointer;
     margin: 2px;
+    font-size: 1rem;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.333);
 }
 
-.login:hover {
+.login {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+button:hover {
     background-color: #6e5fe2;
 }
 
@@ -69,20 +83,12 @@ a:hover {
     color: #6e5fe2;
 }
 
-@media(max-width: 500px) {
-    .imagens-site {
-        border-radius: 20px;
-        width: 90%;
-        height: 30%;
-    }
-}
-
 .logo {
-    width: 80%;
+    width: 90%;
 }
 
 h5 {
-    font-size: 2.2rem;
+    font-size: 2.6rem;
     color: #ffffff;
     text-shadow: 1px 1px 1px black;
 }
@@ -90,10 +96,11 @@ h5 {
 p {
     color: white;
     text-shadow: 1px 1px 1px black;
+    font-size: 1.6rem;
 }
 
 .container {
-    margin-top: 24vh;
+    margin-top: 22vh;
 }
 
 .grid {
@@ -110,19 +117,33 @@ p {
     padding: 10px;
 }
 
-.grid .logo {
+.logo {
     max-width: 100%;
 }
 
-.grid .conteudo-texto {
+.grid .conteudo {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: left;
 }
 
-@media (max-width: 768px) {
+.botao-conteudo {
+    margin-top: 20px;
+}
+
+@media (max-width: 660px) {
+    .login {
+        position: static;
+    }
     .grid {
         grid-template-columns: 1fr;
+    }
+    nav {
+        word-spacing: 42px;
+        margin-right: 0px
+    }
+    .container {
+        margin-top: 10vh;
     }
 }
