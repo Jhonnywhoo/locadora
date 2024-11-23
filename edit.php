@@ -12,10 +12,25 @@ $result = mysqli_fetch_assoc($result);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edição de Alunos</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Edição de Filmes</title>
+    <link rel="stylesheet" href="style_tabela.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8b0455432d.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <header>
+        <nav>
+            <a href="index.php"><i class="fa-solid fa-house"></i></a>
+            <a href="#"><i class="fa-solid fa-film"></i></a>
+            <a href="#contato"><i class="fa-solid fa-comment"></i></a>
+            <a href="#"><Button class='login'>Log-in</Button></a>
+        </nav>
+    </header>
+
+
+
     <div class="container">
         <h1>Editar filme</h1>
 

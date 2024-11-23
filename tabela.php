@@ -11,7 +11,7 @@ include 'conexao.php';
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_tabela.css">
     <script src="https://kit.fontawesome.com/8b0455432d.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -63,7 +63,7 @@ include 'conexao.php';
                 
                 // Exibir cada linha da tabela
                 while($row = mysqli_fetch_assoc($result)) {
-                    echo "<tr>
+                    echo "<tr class=registros>
                             <td>" . $row["ID"] . "</td>
                             <td>" . $row["Nome"] . "</td>
                             <td>" . $row["Genero"] . "</td>
