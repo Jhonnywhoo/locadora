@@ -30,16 +30,13 @@ include 'conexao.php';
             <div class="grid">
                 <div><img class="logo" src="img/logo.png" alt="Logo"></div>
                 <div class="conteudo">
-                    <h5>Parece PULP FICTION</h5>
+                    <h5>Parece <strong style="color: yellow;">PULP FICTION</strong></h5>
                     <p>com um pouco de Cães de Aluguel; aqui<br>é possível adicionar, editar e deletar a lista de filmes disponíveis no banco de dados da SUUPER8 Locadora!</p>
                     <a href="tabela.php"><button class="botao-conteudo">Exibir tabela</button></a>
                 </div>
             </div>
         </section>
     </div>
-
-    <br>
-    
     <script src="components/script.js"></script>
 </body>
 </html>
