@@ -268,7 +268,8 @@ table a:hover {
     }
     nav {
         word-spacing: 42px;
-        margin-right: 0px
+        margin: 0;
+        margin-top: 8px;
     }
     #main .container {
         margin: 0;
@@ -284,9 +285,6 @@ table a:hover {
         padding: auto;
         margin: auto;
     }
-    form label{
-        margin: 5px;
-    }
     table th, table td {
         font-size: 0.9rem;
     }
@@ -301,6 +299,6 @@ table a:hover {
         display: none;
     }
     #logo-tabela {
-        margin: 0 auto;
+        margin: auto;
     }
 }
