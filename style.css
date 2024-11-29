@@ -85,6 +85,7 @@ p {
     background-position: center center;
     background-repeat: no-repeat;
     transition: background-image 1s ease-in-out;
+    background-color: #000000;
     background-image: url('img/fundo1.png');
     padding-bottom: 20px;
     padding: 20vh 0;
