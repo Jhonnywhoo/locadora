@@ -11,12 +11,10 @@ document.addEventListener("DOMContentLoaded", function () {
         if (indice + 1 > imagens.length){
             indice = 0;
         }
-        const body = document.body;
-        body.style.backgroundImage = imagens[(indice)];
+        const main = document.getElementById("main");
+        main.style.backgroundImage = imagens[indice];
         indice++;
-        console.log(imagens.length)
-        console.log(indice)
     }
 
-    setInterval(trocarBackground, 3000);
+    setInterval(trocarBackground, 5000);
 });
